@@ -1,9 +1,7 @@
 package com.devertelo.controller;
 
-import io.micronaut.core.annotation.Introspected;
-import io.micronaut.serde.annotation.SerdeImport;
+import com.fasterxml.jackson.annotation.JsonClassDescription;
 
-@Introspected
-@SerdeImport(UserDTO.class)
+@JsonClassDescription
 public record UserDTO(Long id, String username, String password) {
 }
