@@ -8,7 +8,7 @@ Para executar o projeto você vai precisar de:
 
 Execute o comando para instalar as dependências:
 
-``mvn clean isntall``
+``mvn clean install``
 
 Execute o comando para executar a aplicação:
 
